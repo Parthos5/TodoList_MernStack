@@ -1,0 +1,15 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todos/new
+Content-Type: application/json
+
+{
+    "text":"Do project in MERN Part 2"
+}
+
+###
+DELETE http://localhost:3001/todos/delete/64786b909331c981ab08a114
+
+###
+PUT http://localhost:3001/todos/complete/64782fc92917920f99fdc438
